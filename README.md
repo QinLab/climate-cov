@@ -10,10 +10,10 @@ Inputs into runModel include:
 * R0min *Minimum R0*
 * R0max *Maximum R0*
 * Var *Climate dependency variable* 
-* Immunity  
-* pop = pop, 
-* timestart = timeStart
-* timeend = timeEnd, 
-* R0fixed = R0fixed
-* timeLengthSim =timeLengthSim
-* SHDAT = qpt
+* Immunity  *Immunity Length in days*
+* pop. *Population of city*
+* timestart *Intervention start time (days)*
+* timeend *Intervention end time (days)* 
+* R0fixed *R0 of control period*
+* timeLengthSim *Length (days) to run simulation*
+* SHDAT *Specific humidity dataset, in the format lat, lon, and 52 weeks SH values*
