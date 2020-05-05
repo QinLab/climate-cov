@@ -11,6 +11,7 @@ Inputs into runModel include:
 * R0max *Maximum R0*
 * Var *Climate dependency variable* 
 * Immunity  *Immunity Length in days*
+* birthrate *Birth rate* not used in pandemic version
 * pop. *Population of city*
 * timestart *Intervention start time (days)*
 * timeend *Intervention end time (days)* 
